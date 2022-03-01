@@ -1,0 +1,23 @@
+label {
+    float: right;
+  }
+
+.form-group {
+direction: rtl;}
+
+text
+{
+  direction: rtl;
+}
+.asd{
+  direction: rtl;
+}
+.ar{
+  text-align: right;
+}
+.center{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 20px  90px;
+}

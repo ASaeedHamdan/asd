@@ -1,0 +1,36 @@
+{
+  "Resturant App": "المطعم ",
+  "Sgin Up" : "اشتراك جديد" ,
+
+  "Email address" :"البريد الالكتروني",
+  "enter correct email here" :"ادخل بريد الكتروني صحيح هنا ",
+   "Password" :"الرقم السري ",
+   "enter correct password here" : "ادخل رقم سري صحيح هنا " ,
+   "Login" : "تسجيل دخول",
+   "new account ? click to sginUp" : " حساب جديد ؟ اضغط للاشتراك  ",
+
+   "name" : "الاسم ",
+   "enter name here" :"ادخل الاسم هنا ",
+   "enter email here":"ادخل البريد الالكتروني هنا ",
+   "Mobile Number" :"رقم الهاتف ",
+   "enter phone here " : "ادخل الهاتف هنا  ",
+   "enter password here" : "ادخل الرقم السري هنا ",
+   "Already member ? click to Login" : "بالفعل انت عضو  ؟ اضغط لتسجيل الدخول" ,
+
+   "Filter" : "البحث" ,
+   "ID" : "الرقم ",
+   "Adress" : "العنوان",
+   "Services" : "الخدمات",
+   "Action":"القرار" ,
+   "Add Resturant" : "اضافة مطعم",
+   "Close" :"الغاء",
+   "resturant name here":" الاسم الخاص  بالمطعم هنا ",
+   "resturant email here":"البريد الخاص بالمطعم هنا ",
+   "resturant mobile here":"الهاتف الخاص بالمطعم هنا ",
+   "resturant adress here":"عنوان المطعم هنا ",
+   "resturant services here":"خدمات المطعم هنا ",
+
+   "No data matching the filter":"لا توجد بيانات مطابقه للبحث",
+   "lazy" : "بطئ"
+
+}

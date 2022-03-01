@@ -1,0 +1,12 @@
+.card{
+  margin-top: 55px;
+  border: 1px solid blue;
+  width: 393px;
+  padding: 30px;
+  position: absolute;
+    top: 10%;
+    left: 31%;
+}
+.link{
+  text-decoration: none;
+}

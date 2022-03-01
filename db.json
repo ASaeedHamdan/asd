@@ -1,0 +1,54 @@
+{
+  "resturants": [
+    {
+      "name": "shop 5",
+      "email": "shop5@gmail.com",
+      "mobile": "01011144758",
+      "adress": "zawia",
+      "services": "Helpaa",
+      "id": 5
+    },
+    {
+      "name": "shop 6",
+      "email": "shop6@gmail.com",
+      "mobile": "01201201214",
+      "adress": "saadaaa",
+      "services": "mix",
+      "id": 6
+    },
+    {
+      "name": "shop1",
+      "email": "asd@gmail.com",
+      "mobile": "1111111111111",
+      "adress": "wwwww",
+      "services": "cofii",
+      "id": 7
+    }
+  ],
+  "sginUp": [
+    {
+      "name": "ahmed",
+      "email": "asd@gmial.com",
+      "mobile": "01203019722",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed@gmail.com",
+      "mobile": "01203019722",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

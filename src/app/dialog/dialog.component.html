@@ -1,0 +1,41 @@
+<h1 mat-dialog-title>{{statement}}</h1>
+
+<div mat-dialog-content>
+  <form [formGroup]="formValue">
+
+    <mat-form-field appearance="outline">
+      <mat-label>{{"name" | translate}}</mat-label>
+      <input formControlName="name" matInput placeholder="{{'resturant name here' | translate}}">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>{{"Email address" | translate}}</mat-label>
+      <input formControlName="email" type="text" matInput placeholder="{{'resturant email here' | translate}}">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>{{"Mobile Number" | translate}}</mat-label>
+      <input formControlName="mobile" matInput  placeholder="{{'resturant mobile here'| translate}}">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>{{"Adress" | translate}}</mat-label>
+      <input formControlName="adress" matInput  placeholder="{{'resturant adress here' | translate}}">
+    </mat-form-field>
+
+
+    <mat-form-field appearance="outline">
+      <mat-label> {{"Services" | translate}}</mat-label>
+      <input formControlName="services" matInput  placeholder="{{'resturant services here' | translate}}">
+    </mat-form-field>
+
+  </form>
+</div>
+ <div mat-dialog-actions [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close></button>
+   <button mat-raised-button color="warn" mat-dialog-close>{{"Close" | translate}}</button>
+  <button mat-raised-button color="primary" (click)="addResturant()">
+
+    {{actionBtn}}
+  </button>
+</div>

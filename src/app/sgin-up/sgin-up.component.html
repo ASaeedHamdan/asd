@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1> {{"Sgin Up" | translate}}</h1><hr>
+        </div>
+
+        <form [formGroup]="sginUpForm" (ngSubmit)="sginUp()">
+          <div class="mb-3 form-group">
+            <label  class="form-label">{{"name" | translate}}</label>
+            <input type="text" formControlName="name" placeholder="{{'enter name here' | translate}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3 form-group">
+            <label  class="form-label">Email address</label>
+            <input type="email" formControlName="email" placeholder="{{'enter email here' | translate}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3 form-group">
+            <label  class="form-label">{{"Mobile Number" | translate}}</label>
+            <input type="text" formControlName="mobile" placeholder="{{'enter phone here ' | translate}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+
+
+          <div class="mb-3 form-group">
+            <label  class="form-label">{{"Password" | translate}}</label>
+            <input type="password" formControlName="password" placeholder="{{'enter password here' | translate}} " class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">{{"Sgin Up" | translate}}</button>&nbsp;
+          <a routerLink="/login" class="link"> {{"Already member ? click to Login" | translate}}</a>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

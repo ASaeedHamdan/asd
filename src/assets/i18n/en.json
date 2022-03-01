@@ -1,0 +1,40 @@
+{
+  "Resturant App": "Resturant App ",
+  "Sgin Up" : " Sgin Up" ,
+
+  "Email address" :"Email address",
+  "enter correct email here" :"Enter Correct Email Here",
+   "Password" :"Password",
+   "enter correct password here" : "Enter Correct Password Here" ,
+   "Login" : "Login",
+   "new account ? click to sginUp" : "New Account ? Click To SginUp",
+
+   "name" : "Name",
+   "enter name here" :"Enter Name Here",
+   "enter email here":"Enter Email Here",
+   "Mobile Number" :"Mobile Number",
+   "enter phone here " : "enter phone here ",
+   "enter password here" : "enter password here",
+   "Already member ? click to Login" : "Already member ? click to Login" ,
+
+   "Filter" : "Filter" ,
+   "ID" : "ID",
+   "Adress" : "Adress",
+   "Services" : "Services",
+   "Action":"Action",
+   "Add Resturant":"Add Resturant",
+   "Close" :"Close" ,
+
+   "resturant name here":"resturant name here",
+   "resturant email here":"resturant email here",
+   "resturant mobile here":"resturant mobile here",
+   "resturant adress here":"resturant adress here",
+   "resturant services here":"resturant services here",
+   "No data matching the filter" :"No data matching the filter",
+   "lazy":"lazy"
+
+
+
+
+
+}

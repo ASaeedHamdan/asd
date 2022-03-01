@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1> {{"Login" | translate}}</h1><hr>
+        </div>
+
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+          <div class="mb-3 form-group">
+            <label for="exampleInputEmail1" class="form-label">{{"Email address" | translate}}</label>
+            <input type="email" formControlName="email" placeholder="{{'enter correct email here' | translate}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+          <div class="mb-3 form-group">
+            <label for="exampleInputPassword1" class="form-label">{{"Password" | translate}}</label>
+            <input type="password" formControlName="password" placeholder="{{'enter correct password here'  | translate}}" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">{{"Login" | translate}}</button>&nbsp;
+          <a routerLink="/sginUp" class="link"> {{"new account ? click to sginUp" | translate}}</a>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

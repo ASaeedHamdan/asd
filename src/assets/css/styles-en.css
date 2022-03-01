@@ -1,0 +1,20 @@
+label {
+    float: left;
+  }
+
+.form-group {
+direction: ltr;}
+
+text
+{
+  direction: ltr;
+}
+.asd{
+  direction: ltr;
+}
+.center{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 20px  90px;
+}
